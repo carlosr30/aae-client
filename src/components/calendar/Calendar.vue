@@ -78,11 +78,6 @@
                             eventMaxDay >= i
                     })
 
-                    if (this.event?.event_days?.includes(indexCopy) &&
-                        eventMinDay <= i &&
-                        eventMaxDay >= i) {
-                    }
-
                     if (indexCopy == 6) {
                         indexCopy = 0
                         continue
@@ -113,6 +108,7 @@
 
         methods: {
             getEventByMonthAndYear() {
+                console.log(process.env)
                 this.event = {}
                 const apiUrl = `events/year/${this.date.year}/month/${this.date.month + 1}`
                 axios.get(`${process.env.VUE_APP_API_URL}/${apiUrl}`)
