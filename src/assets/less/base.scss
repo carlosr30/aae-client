@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.glass-container {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+}
+
+@media (min-width: 767px) {
+    .container {
+        width: 767px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+}
