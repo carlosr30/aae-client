@@ -1,4 +1,4 @@
-# mats-college-client
+# Appetiser Apps Exam
 
 ## Project setup
 ```
