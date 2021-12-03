@@ -108,7 +108,6 @@
 
         methods: {
             getEventByMonthAndYear() {
-                console.log(process.env)
                 this.event = {}
                 const apiUrl = `events/year/${this.date.year}/month/${this.date.month + 1}`
                 axios.get(`${process.env.VUE_APP_API_URL}/${apiUrl}`)
