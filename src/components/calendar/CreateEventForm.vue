@@ -4,7 +4,7 @@
             <h1 class="create-event-form-title">Create Event</h1>
         
             <div class="site-input-container">
-                <label for="" class="site-label">Event</label>
+                <label class="site-label">Event</label>
                 <input type="text"
                     class="site-input"
                     v-model="name" />
@@ -15,7 +15,7 @@
             </div>
 
             <div class="site-input-container">
-                <label for="" class="site-label">Range</label>
+                <label class="site-label">Range</label>
                 <Datepicker 
                     :enableTimePicker="false"
                     v-model="dateRange"
@@ -38,7 +38,7 @@
                             value="1"
                             v-model="eventDays" />
 
-                        <span for="">Monday</span>
+                        <span>Monday</span>
                     </label>
                 </div>
 
@@ -49,7 +49,7 @@
                             value="2"
                             v-model="eventDays" />
 
-                        <span for="">Tuesday</span>
+                        <span>Tuesday</span>
                     </label>
                 </div>
 
@@ -60,7 +60,7 @@
                             value="3"
                             v-model="eventDays" />
 
-                        <span for="">Wednesday</span>
+                        <span>Wednesday</span>
                     </label>
                 </div>
 
